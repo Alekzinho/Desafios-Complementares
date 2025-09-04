@@ -70,16 +70,3 @@ function tamanhoArray(array) {
 }
 
 console.log(tamanhoArray(lista));
-
-// Desafio 7: Verificar elemento da lista
-let lista2 = [4, 5, 6,];
-
-function verificarElemento(lista, elemento) {
-    if (lista.includes(elemento)) {
-        console.log (`O elemento ${elemento} está incluido na lista.`);
-    } else {
-        console.log (`O elemento ${elemento} não está incluido na lista.`);
-    }
-}
-
-verificarElemento(lista2, 8);
