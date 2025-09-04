@@ -130,3 +130,18 @@ function procurarEstudante(array, object) {
 }
 
 procurarEstudante(estudantes, estudanteProcurado);
+
+// Desafio 11: Soma de pares e produto de ímpares
+let lista3 = [1,2,3,4,5,6,7,8,9];
+
+function calcularValoresDaLista(array) {
+    let pares = array.filter(numero => numero % 2 === 0);
+    let impares = array.filter(numero => numero % 2 !== 0);
+    let somaDosPares = pares.reduce((soma, numero) => soma + numero, 0);
+    let multiplicacaoDosImpares = impares.reduce((multiplicacao, numero) => multiplicacao * numero);
+
+    console.log (`Os números pares da lista são: ${pares} e sua soma é ${somaDosPares}`);
+    console.log (`Os números ímapres da lista são: ${impares} e seu produto é ${multiplicacaoDosImpares}`);
+}
+
+calcularValoresDaLista(lista3);
