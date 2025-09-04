@@ -61,3 +61,12 @@ function calcularMedia(valor1, valor2) {
 }
 
 calcularMedia(5,5);
+
+// Desafio 6: Tamanho do array
+let lista = [1, 2, 3,];
+
+function tamanhoArray(array) {
+    return array.length;
+}
+
+console.log(tamanhoArray(lista));
