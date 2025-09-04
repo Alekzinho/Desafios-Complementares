@@ -36,3 +36,16 @@ function analisarString(string) {
 }
 
 analisarString("oi");
+
+// Desafio 4: Verificar ano bissexto
+function verificarAnoBissexto(ano) {
+    const data = new Date (ano, 1, 29)
+
+    if (data.getMonth() == 1) {
+        console.log(`${ano} é ano bissexto.`);
+    } else {
+        console.log(`${ano} não é ano bissexto.`);
+    }
+}
+
+verificarAnoBissexto(2025);
