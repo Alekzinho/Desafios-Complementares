@@ -96,3 +96,16 @@ function verificarElementoDaLista(lista, elemento) {
 }
 
 verificarElementoDaLista(lista2, 8);
+
+// Desafio 9: Verificar elemento string
+function verificarElementoString(elemento) {
+    let lista = ["banana", "melancia", "laranja", "abacate", "uva"];
+    
+    if (lista.includes(elemento)) {
+        console.log (`O elemento ${elemento} está incluido na lista.`);
+    } else {
+        console.log (`O elemento ${elemento} não está incluido na lista.`);
+    }
+}
+
+verificarElementoString("melancia");
