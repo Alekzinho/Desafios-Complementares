@@ -49,3 +49,15 @@ function verificarAnoBissexto(ano) {
 }
 
 verificarAnoBissexto(2025);
+
+// Desafio 5: Calculando média
+function calcularMedia(valor1, valor2) {
+    if (isNaN(valor1) || isNaN(valor2)) {
+        console.log("Digite um número válido");
+    } else {
+        let media = (valor1 + valor2) /2;
+        console.log (`A média dos valores é ${media}.`);
+    }
+}
+
+calcularMedia(5,5);
