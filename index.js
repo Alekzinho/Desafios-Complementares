@@ -83,3 +83,16 @@ function verificarElemento(elemento) {
 }
 
 verificarElemento(7);
+
+// Desafio 8: Verificar elemento da lista
+let lista2 = [4, 5, 6,];
+
+function verificarElementoDaLista(lista, elemento) {
+    if (lista.includes(elemento)) {
+        console.log (`O elemento ${elemento} está incluido na lista.`);
+    } else {
+        console.log (`O elemento ${elemento} não está incluido na lista.`);
+    }
+}
+
+verificarElementoDaLista(lista2, 8);
