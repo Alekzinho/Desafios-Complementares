@@ -109,3 +109,24 @@ function verificarElementoString(elemento) {
 }
 
 verificarElementoString("melancia");
+
+// Desafio 10: Array de objetos
+let estudantes = [
+    {nome: "Alex", idade: 23},
+    {nome: "Ricardo", idade: 23},
+    {nome: "Rafael", idade: 24},
+    {nome: "Bryan", idade: 22},
+    {nome: "Bruno", idade: 23}
+];
+
+let estudanteProcurado = {nome: "Paulo", idade: 25};
+
+function procurarEstudante(array, object) {
+    if (array.some(item => item.idade === object.idade && item.nome === object.nome)) {
+        console.log ("Este estudante está presente.");
+    } else {
+        console.log("Este estudante não está presente.");
+    }
+}
+
+procurarEstudante(estudantes, estudanteProcurado);
