@@ -1,4 +1,4 @@
-// Desafio 1: validando número negativo, positivo ou zero
+// Desafio 1: Validando número negativo, positivo ou zero
 function analisarNumero(numero) {
     if (numero < 0) {
         console.log(`O número ${numero} é negativo.`);
@@ -25,3 +25,14 @@ function verificarIdade(idade) {
 }
 
 verificarIdade(19);
+
+// Desafio 3: Validando string vazia
+function analisarString(string) {
+    if (string == "") {
+        console.log("String vazia.");
+    } else {
+        console.log("String não vazia.");
+    }
+}
+
+analisarString("oi");
